@@ -3,7 +3,7 @@ import socket
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
 #Prepare a sever socket 
-servHost = '127.0.0.1' # socket.gethostname()
+servHost = "127.0.0.1" #socket.gethostname()
 servPort = 80
 serverSocket.bind((servHost, servPort))
 
